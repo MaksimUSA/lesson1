@@ -1,8 +1,11 @@
-a{
-	color:blue;
+
+header ul{
 	text-decoration:none;
 		font-size:30px;
 		padding:15px;
+		color:blue;
+		background-color:yellow;
+		box-shadow:0px 0px 7px;
 }
 .list{
 	
@@ -25,13 +28,13 @@ ul{
 	top:40px;
 }
 .content{
-	width:40%;
-	height:600px;
+	width:30%;
+	height:800px;
 	border:solid 2px;
 	position:relative;
 	top:15px;
 }
-.kontakt{
+header .kontakt{
 	display:none;
 	list-style:none;
 }
@@ -44,19 +47,20 @@ ul li:hover ul{
 .tuda{
 	padding:50px;
 }
-footer{
-	width:100%;
-	height:50px;
-	background-color:#000;
-	margin:0 auto;
-	text-align:center;
-	padding-top:30px;
-	position:relative;
-	top:250px;
+footer div{
+	width:200px;
+	height:400px;
+	background-color:#ccc;
+	display:inline-block;
 }
 
 footer a{
-	color:red;
+	color:black;
+	font-size:15px;
+	text-decoration:none;
+}
+footer:hover a{
+	color:#009000;
 }
 b{
 	font-size:16px;
@@ -65,5 +69,36 @@ b{
 p{
 	font-family:Arial;
 }
+footer .otzyvy{
+	width:330px;
+	height:200px;
+	font-size:9px;
+}
+footer .help{
+	width:330px;
+	height:200px;
+	font-size:5px;
+}
+footer .svyaz{
+	width:330px;
+	height:200px;
+	font-size:15px;
+}
+
+footer .email{
+	width:330px;
+	height:200px;
+	font-size:15px;
+}
+footer{
+	background-color:#ccc;
+	position:relative;
+	top:300px;
+}
 
 
+
+h3{
+	font-size:15px;
+	color:green;
+}
